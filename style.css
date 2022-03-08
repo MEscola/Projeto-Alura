@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap');
+
+body {
+  background-color: whitesmoke;
+  
+}
+
+.nome {
+  font-family: 'Rowdies', cursive;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  width: 940px;
+  font-weight: bold;
+  font-size: 80px;
+ vertical-align: top;
+  text-shadow:4px 6px 5px  #000 ;
+  text-align: center;
+  padding: 5%;
+}
+
+
+.banner {
+  background-image: url("img/banner-2.jpg") ;
+  background-size: cover;
+  display: inline-block;
+  
+  width:100%;
+  height: 85%;
+  
+}
+
+.logo {
+  display: inline-block;
+}
+/*
+img{
+  padding: 2%;
+  width: 80%;
+}
+*/
+header {
+  padding: 40px 0;
+ 
+}
+
+.menu ul {
+  position: absolute;
+  text-align: center;
+	padding:5px;
+	margin: 0px;
+	background:  rgba(80, 55, 10, 0.719) ;
+	list-style:none;
+  width: 100%;
+  
+}
+
+
+nav li {
+  display: inline-block;
+  margin: 0 30px ;
+  
+}
+
+nav a {
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  font-family: 'Rowdies', cursive;
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: none;
+  text-shadow:4px 5px 5px  #000 ;
+}
+
+ nav a:hover {
+  color:rgb(199, 169, 89);
+  
+  
+}
+
+
+
+.principal{
+	padding: 3em 0;
+  background: #fefefe;
+
+}
+
+.titulo-principal {
+/*	padding-left: 20px;*/
+  font-family: 'Rowdies', cursive;
+  text-align: center;
+  font-size: 2em;
+  margin: 0 0 1em ;
+  clear: left;
+}
+
+.principal p, p {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin: 0 0 1em ;
+  line-height: 1.6;
+}
+
+.principal strong {
+  font-weight: bold;
+}
+
+.principal em {
+  font-style: italic;
+}
+
+.utensilios {
+  border-radius: 50%;
+  width: 170px;
+  float: left;
+  margin:0 20px 20px 0;
+  box-shadow: 5px 5px 10px rgba(80, 55, 10, 0.719) ;
+  -o-animation-direction: alternate-reverse;
+ 
+
+}
+
+#missao {
+	font-size: 20px
+}
+
+em strong {
+	color: rgb(70, 52, 2)
+}
+
+.itens {
+  font-family: 'Montserrat', sans-serif;
+  list-style-type: disc;
+  margin:0 0 10px 10px;
+
+	
+}
+/*colocando em negrito todos os itens pares*/
+.itens:nth-child(2n){
+  font-weight: bold;
+}
+.mapas {
+  padding: 3em 0;
+  background: linear-gradient(#fefefe, #fcc76667);
+  
+
+}
+
+.beneficios {
+	padding: 20px;
+  background: linear-gradient(#fcc76667, #dfc189, #83500e)  ;
+  
+}
+
+.conteudo-beneficios{
+  width: 640px;
+  margin: auto;
+
+}
+
+.lista-beneficios {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+  height: 40%;
+}
+
+.imagem-beneficios {
+	width: 50%;
+  box-shadow: 5px 5px 10px 2px rgba(80, 56, 10, 0.315) ;
+  
+}
+
+.video {
+width: 560px;
+margin: 2em auto;
+}
+
+footer {
+  text-align: center;
+  font-size: 5px;
+  background:#83500e;
+  padding: 20px 0 ;
+}
+
+footer img{
+  width: 2%;
+  
+}
+
+.copyright {
+  color: whitesmoke;
+  font-size: 13px;
+  margin-top: 0;
+
+}
+
+@media screen and (max-width: 400px){
+  .caixa, .principal, .conteudo-beneficios, .video{
+    width: auto;
+  }
+}
